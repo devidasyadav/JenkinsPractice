@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="practiceProject.ITestListernerLogic" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="practiceProject.TestCase8_ProductSortBy" />
+			<class name="practiceProject.TestCase6_SearchBook_Category" />
+			<class name="practiceProject.TestCase2_AmazonLogin_CorrectCreds" />
+			<class name="practiceProject.TestCase7_ValidateProductDetails" />
+			<class name="practiceProject.TestCase4_ProfileEdit" />
+			<class name="practiceProject.TestCase5_SearchProduct" />
+			<class name="practiceProject.TestCase3_LoginWithIncorrectCreds" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
