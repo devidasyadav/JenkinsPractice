@@ -7,7 +7,15 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="practiceProject.TestCase4_ProfileEdit" />
+	  <class name="practiceProject.TestCase8_ProductSortBy"/>
+      <class name="practiceProject.TestCase6_SearchBook_Category"/>
+      <class name="practiceProject.TestCase2_AmazonLogin_CorrectCreds"/>
+      <class name="practiceProject.TestCase9_VerifyAddToCart"/>
+      <class name="practiceProject.TestCase7_ValidateProductDetails"/>
+      <class name="practiceProject.TestCase4_ProfileEdit"/>
+      <class name="practiceProject.TestCase5_SearchProduct"/>
+      <class name="practiceProject.TestCase10_AddRemoveQuantities"/>
+      <class name="practiceProject.TestCase3_LoginWithIncorrectCreds"/>
 		</classes>
 	</test> <!--
 	Test -->
